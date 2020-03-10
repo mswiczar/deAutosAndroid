@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:background="#FFFFFF"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+     <TextView  android:id="@+id/textnuevos"
+		 android:background="@drawable/nuevos"
+         android:layout_width="fill_parent"
+		 android:layout_height="20mm"
+         android:text=""
+      />
+         
+<ScrollView
+
+	xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background ="#FFFFFF"> 
+	<TableLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:stretchColumns="0"> 
+		<TableRow>
+			<TextView android:layout_width="fill_parent" android:id="@+id/textMarca" android:paddingTop="2mm" android:paddingLeft="15mm" android:layout_height="16mm"  android:text="Marca" android:textColor="#D7862A" android:textSize="10mm" ></TextView>
+		</TableRow> 
+
+		<TableRow>
+			<TextView android:layout_width="fill_parent" android:id="@+id/textModelo" android:paddingTop="2mm" android:paddingLeft="15mm" android:layout_height="16mm"  android:text="Modelo" android:textColor="#DDDDDD" android:textSize="10mm" ></TextView>
+		</TableRow> 
+
+		<TableRow>
+			<TextView android:layout_width="fill_parent" android:id="@+id/textProvincia" android:paddingTop="2mm" android:paddingLeft="15mm" android:layout_height="16mm" android:text="Provincia" android:textColor="#D7862A" android:textSize="10mm" ></TextView>
+		</TableRow> 
+
+		<TableRow>
+			<TextView  android:layout_width="fill_parent" android:id="@+id/textLocalidad" android:paddingTop="2mm" android:paddingLeft="15mm" android:layout_height="16mm" android:text="Localidad" android:textColor="#DDDDDD" android:textSize="10mm" ></TextView>
+		</TableRow> 
+
+
+		<TableRow>
+			<TextView android:id="@+id/textCombustible" android:paddingTop="2mm" android:paddingLeft="15mm" android:layout_height="16mm" android:text="Combustible" android:textColor="#D7862A" android:textSize="10mm" android:layout_span="2" ></TextView>
+		</TableRow> 
+
+		<TableRow>
+			<TextView  android:layout_width="fill_parent" android:id="@+id/textADesde" android:paddingTop="2mm" android:paddingLeft="15mm" android:layout_height="16mm" android:text="Año desde" android:textColor="#DDDDDD" android:textSize="10mm" ></TextView>
+		</TableRow> 
+
+		<TableRow>
+			<TextView  android:layout_width="fill_parent" android:id="@+id/textAHasta" android:paddingTop="2mm" android:paddingLeft="15mm" android:layout_height="16mm" android:text="Año hasta" android:textColor="#DDDDDD" android:textSize="10mm" ></TextView>
+		</TableRow> 
+
+	<TableRow>
+			<TextView   android:paddingTop="1mm" android:layout_height="1mm" android:background="#000000" android:text="" android:layout_gravity="center_horizontal"  android:textColor="#D7862A" android:textSize="14mm" android:layout_span="2"></TextView>
+		</TableRow> 
+
+		<TableRow>
+		
+ <Button  android:background="@drawable/firstbuscar" android:id="@+id/buttonBuscar" android:layout_span="2"
+		android:layout_width="fill_parent" android:layout_height="20mm" android:text=""
+		android:textColor="#D7862A"/>                                                                                                                                                                                                                                                                                   
+		
+		</TableRow>		
+</TableLayout> 
+</ScrollView>
+ </LinearLayout>

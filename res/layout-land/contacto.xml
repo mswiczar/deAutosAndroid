@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:background="#FFFFFF"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+     
+     <TextView  android:id="@+id/textBanner"
+	     android:background="@drawable/topfirstscreen"
+         android:layout_width="fill_parent"
+		 android:layout_height="20mm"
+         android:text=""/>
+
+<ScrollView
+
+	xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background ="#FFFFFF"> 
+	<TableLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:stretchColumns="0"> 
+		<TableRow>
+			<TextView  android:id="@+id/thetop"
+		     android:background="#FFFFFF"
+	         android:layout_width="fill_parent"
+			 android:layout_height="10mm"
+			 android:textColor="#D7862A"
+			 android:gravity ="center_horizontal"
+			 android:textSize="8mm"
+	         android:text=""/>
+		</TableRow> 
+
+		<TableRow>
+			<TextView android:layout_width="wrap_content" android:id="@+id/labelnombre" android:paddingTop="2mm" android:paddingLeft="5mm" android:layout_height="wrap_content"  android:text="Nombre y Apellido:" android:textColor="#D7862A" android:textSize="6mm" ></TextView>	
+		</TableRow>
+		
+		<TableRow>
+		<EditText android:id ="@+id/editnombre"
+ 				android:text=""
+ 				 android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+ 				android:layout_width="fill_parent"
+ 				android:layout_height="wrap_content"/>	
+
+		</TableRow>
+		
+		<TableRow>
+ 			<TextView android:layout_width="wrap_content" android:id="@+id/labeltel" android:paddingTop="2mm" android:paddingLeft="5mm" android:layout_height="wrap_content"  android:text="Telefono:" android:textColor="#D7862A" android:textSize="6mm" ></TextView>	
+		</TableRow>
+
+		<TableRow>
+			<EditText android:id ="@+id/edittel"
+ 			 android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+			  android:text=""
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"/>
+
+		</TableRow>
+
+		<TableRow>
+			<TextView android:layout_width="wrap_content" android:id="@+id/labelemail" android:paddingTop="2mm" android:paddingLeft="5mm" android:layout_height="wrap_content"  android:text="Email:" android:textColor="#D7862A" android:textSize="6mm" ></TextView>	
+		</TableRow>
+
+		<TableRow>
+			<EditText android:id ="@+id/editemail"
+	 		 android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+			  android:text=""
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"/>
+
+		</TableRow>
+
+		<TableRow>
+			<TextView android:layout_width="wrap_content" android:id="@+id/labecoment" android:paddingTop="2mm" android:paddingLeft="5mm" android:layout_height="wrap_content"  android:text="Comentarios:" android:textColor="#D7862A" android:textSize="6mm" ></TextView>	
+		</TableRow>
+
+		<TableRow>
+			<EditText 
+			android:id ="@+id/editcomments"
+			 android:layout_width="fill_parent"
+		            android:layout_height="wrap_content" android:gravity="top"
+		            android:singleLine="false" android:lines="3"
+		            android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+		            />
+		</TableRow>
+
+
+		<TableRow>
+			<ImageView
+        		android:id="@+id/imgcaptcha"
+        		android:layout_width="50mm"
+        		android:layout_height="25mm"
+        		android:layout_marginRight="10dip"
+        		android:src="@drawable/captcha" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:layout_width="wrap_content" android:id="@+id/labelescribi" android:paddingTop="2mm" android:paddingLeft="5mm" android:layout_height="wrap_content"  android:text="Escribi los caracteres que ves en la imagen:" android:textColor="#D7862A" android:textSize="6mm" ></TextView>	
+		</TableRow>
+
+		<TableRow>
+			<Button android:layout_marginLeft="10dip"  android:layout_marginRight="10dip" android:layout_width="fill_parent" android:layout_height="18mm" android:id="@+id/botonrefresh"  android:layout_marginTop="10dip"   android:text="Refrescar Captcha" android:textColor="#D7862A" android:textSize="6mm" ></Button>
+			
+		</TableRow>
+
+
+		<TableRow>
+			<EditText android:id ="@+id/editcaptcha"
+			  android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+			  android:text=""	
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView  android:id="@+id/buttonContactar"
+   	     	android:background="@drawable/botonenviar"
+         	android:layout_width="fill_parent"
+   		 	android:layout_height="20mm"
+         	android:text=""/> 
+		</TableRow>
+
+				
+</TableLayout> 
+</ScrollView>
+</LinearLayout>
+

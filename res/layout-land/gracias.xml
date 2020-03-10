@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:background="#FFFFFF"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+     <TextView  android:id="@+id/textBanner"
+	     android:background="@drawable/topfirstscreen"
+         android:layout_width="fill_parent"
+		 android:layout_height="20mm"
+         android:text=""/>
+         
+         
+   <TextView  android:id="@+id/thetop1"
+	     android:background="#FFFFFF"
+         android:layout_width="fill_parent"
+		 android:layout_height="2mm"
+		 android:textColor="#D7862A"
+		 android:gravity ="center_horizontal"
+         android:text=""/>
+
+
+     <TextView  android:id="@+id/textBanner"
+	     android:background="@drawable/graciasmensajeok"
+         android:layout_width="fill_parent"
+		 android:layout_height="30mm"
+         android:text=""/>
+         
+     <TextView  android:id="@+id/textvolver"
+	     android:background="@drawable/graciasvolver"
+		 android:layout_height="35mm"
+         android:layout_width="fill_parent"
+		android:gravity ="center_horizontal"
+		 
+         android:text=""/>
+
+   
+     <TextView  android:id="@+id/textInicio"
+	     android:background="@drawable/graciasinicio"
+         android:layout_width="fill_parent"
+		 android:layout_height="20mm"
+         android:text=""/>
+
+
+</LinearLayout>

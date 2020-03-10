@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:background ="#FFFFFF"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content"> 
+	<TableLayout   android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="0"> 
+
+		<TableRow>
+		     <TextView  android:id="@+id/textBanner"
+	    	 android:background="@drawable/topfirstscreen"
+         	android:layout_width="fill_parent"
+		 	android:layout_height="20mm"
+         	android:text=""/>
+		
+		</TableRow>
+
+
+
+
+		<TableRow>
+		   <TextView  android:id="@+id/labelmodelo"
+			 android:background="#FFFFFF"
+         	android:layout_width="fill_parent"
+            android:layout_height="12mm"
+     	 	android:textColor="#D7862A"
+     	 	android:paddingLeft ="15mm"
+     	 	android:textSize="18sp"
+         	android:text="Audi A3 3.0 TDI 5 Triptonic 3p"/>
+		</TableRow>
+
+
+
+
+		<TableRow>
+		        <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="12mm"
+		            android:layout_weight="1" 
+		            android:id="@+id/labelano"
+		            android:singleLine="true"
+		            android:ellipsize="marquee"
+		            android:textSize="15sp"
+		            android:paddingLeft ="15mm"
+		            android:text="Ano: 2010"/>
+		            
+		        />
+		</TableRow>		
+
+		<TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/labelcombustible"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textSize="15sp"
+ 		            android:paddingLeft ="15mm"
+ 
+            android:text="Combustible: Nafta"/>
+            
+        />
+
+		</TableRow>		
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/labelprecio"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+                        android:textSize="15sp"
+            		            android:paddingLeft ="15mm"
+            
+           android:text="Precio $ 21.000"/>
+            
+        />
+
+
+		<TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/labelkm"
+            android:singleLine="true"
+                        android:textSize="15sp"
+            		            android:paddingLeft ="15mm"
+            
+            android:ellipsize="marquee"
+            android:text="Km: 0"/>
+            
+        />
+
+		</TableRow>		
+ 		<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/labelsegmento"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+                        android:textSize="15sp"
+           		            android:paddingLeft ="15mm"
+            
+            android:text="Segmento: Seddan 4P"/>
+            
+        />
+
+		<TableRow>
+        	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/labelcolor"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+                        android:textSize="15sp"
+            		            android:paddingLeft ="15mm"
+            
+            android:text="Color: Rojo"/>
+            
+        />
+
+		</TableRow>		
+       <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/labelfromapago"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textSize="15sp"
+          	android:paddingLeft ="15mm"
+            android:text="Forma de Pago: Contado"/>
+        />
+
+		<TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/labelprov"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+		            android:paddingLeft ="15mm"
+                        android:textSize="15sp"
+            
+            android:text="Prov/Loc: Capital Federal, Nuñez"/>
+        />
+
+		</TableRow>		
+
+		<TableRow>
+      <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/buttonCaracteristica"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textSize="16sp"
+            android:textColor="#D7862A"
+             android:paddingLeft ="15mm"
+            
+            android:text="Ver accesorios"/>
+            
+        />
+		</TableRow>		
+
+		<TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="12mm"
+            android:layout_weight="1" 
+            android:id="@+id/buttonFotosvertodas"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+          		            android:paddingLeft ="15mm"
+          
+            android:textSize="15sp"
+            android:textColor="#D7862A"
+                        android:paddingRight ="5mm"
+                        android:gravity="right"
+            
+            android:text="Ver Todas las fotos"/>
+            
+        />
+
+		</TableRow>		
+
+		<TableRow>
+		    <ImageView
+		        android:id="@+id/noimage"
+		        android:layout_height="40mm"
+		        android:layout_width="40mm"
+		        android:layout_marginRight="40dip"
+		        android:src="@drawable/noimage" />
+
+		</TableRow>
+
+
+		<TableRow>
+        <Gallery xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/examplegallery"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow>
+		<TextView  android:id="@+id/buttonContacto"
+	     android:background="@drawable/botoncontactar"
+         android:layout_width="fill_parent"
+		 android:layout_height="20mm"
+         android:text=""/>
+		
+		</TableRow>		
+				
+</TableLayout>
+ 
+</ScrollView>

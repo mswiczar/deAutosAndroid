@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:background="#FFFFFF"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+     <TextView  android:id="@+id/textBanner"
+	     android:background="@drawable/topfirstscreen"
+         android:layout_width="fill_parent"
+		 android:layout_height="10mm"
+         android:text=""/>
+<WebView android:id="@+id/webkit" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+
+</LinearLayout>

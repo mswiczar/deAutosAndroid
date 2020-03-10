@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mswiczar.deautos"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="deautosApp" android:debuggable="true">
+    	 
+        <activity android:name=".deautos"
+                  android:label="deautos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".viewauto" 
+        	android:label="deautos.com - Detalle del aviso">
+        </activity>
+        
+		<activity android:name=".resultSearch" 
+        	android:label="deautos.com - Listado de avisos">
+        </activity>
+        
+		<activity android:name=".contacto" 
+        	android:label="deautos.com - Contacto del aviso">
+        </activity>
+
+		<activity android:name=".gracias" 
+        	android:label="deautos.com - Gracias!">
+        </activity>
+
+		<activity android:name=".equipamiento" 
+        	android:label="deautos.com - Equipamiento">
+        </activity>
+
+		<activity android:name=".imagenes" 
+        	android:label="deautos.com - Imagenes sobre el aviso">
+        </activity>
+
+
+        
+
+    </application>
+    	<uses-permission android:name="android.permission.INTERNET"/>
+    	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    	
+    	
+    <uses-sdk android:minSdkVersion="5" />
+
+</manifest> 
